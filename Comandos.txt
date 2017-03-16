@@ -1,0 +1,17 @@
+python -m pip install django 
+
+python -m pip install virtualenv
+
+python -m pip freeze
+
+python -m venv "NombreEntorno"
+
+ingresar a carpetaentorno y luego a scrips de ahi activate y deactivate
+
+django-admin.py startproject crea proyecto
+django-admin.py startapp crea proyecto
+
+manage.py createsuperuser 
+manage.py makemigrations
+manage.py migrate
+manage.py runserver
