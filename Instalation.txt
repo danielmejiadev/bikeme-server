@@ -1,0 +1,20 @@
+Install python
+Install virtualenv
+Create virtualevnv
+Install mysql
+Install apache server
+install phpmyadmin
+install Django-Django RestFramework
+install numpy
+install pyproj 
+install mysqlclient
+Create project
+Install RabbitServer-Celery-django-celery
+Create worker daemons for celery
+
+
+manage.py createsuperuser 
+manage.py makemigrations
+manage.py migrate
+manage.py runserver
+manage.py migrate djcelery

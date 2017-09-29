@@ -1,0 +1,47 @@
+[
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"70",
+	"fields": {
+		"typeChallenge": 7, 
+		"condition": 50, 
+		"award": 60
+		}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"71",
+	"fields": {
+		"typeChallenge": 7, 
+		"condition": 140, 
+		"award": 180
+		}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"72",
+	"fields": {
+		"typeChallenge": 7, 
+		"condition": 250, 
+		"award": 300
+		}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"73",
+	"fields": {
+		"typeChallenge": 7, 
+		"condition": 600, 
+		"award": 1000
+		}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"74",
+	"fields": {
+		"typeChallenge": 7, 
+		"condition": 1200, 
+		"award": 2000
+		}
+	}
+]

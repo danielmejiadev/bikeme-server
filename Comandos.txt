@@ -1,17 +1,49 @@
-python -m pip install django 
+Dns : ec2-34-215-91-140.us-west-2.compute.amazonaws.com
+Ip : 172.33.31.63
+
+User : root
+Pass: BikeMeApp
 
 python -m pip install virtualenv
-
+python -m pip install django 
 python -m pip freeze
-
 python -m venv "NombreEntorno"
 
 ingresar a carpetaentorno y luego a scrips de ahi activate y deactivate
 
-django-admin.py startproject crea proyecto
-django-admin.py startapp crea proyecto
+Linux
+source myprojectenv/bin/activate
 
-manage.py createsuperuser 
-manage.py makemigrations
-manage.py migrate
-manage.py runserver
+
+Inizializate worker celery development
+python manage.py celeryd --verbosity=2 --loglevel=DEBUG
+
+Inicializate beats development
+python manage.py celerybeat
+
+pipdeptree
+
+Delete all packgages
+pip freeze > requirements.txt
+pip uninstall -r requirements.txt -y
+
+Delete all dependeces a package
+pip install pip-autoremove
+pip-autoremove packageName -y
+
+git init 
+git checkout -f volver si se borro algo
+git log
+git status
+
+git remote add origin https://github.com/DanielMejia/BikeMeServer.git https://github.com/DanielMejia/RestAPI.git
+git push -u origin --all
+
+git checkout -b nameBranch
+git branch
+git checkout master change between branches 
+git merge namebranch merge branch in the current brach
+git branch -d namebranch delete a branch
+
+git add .
+git commit -m "Initialize repository"

@@ -1,0 +1,26 @@
+[
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"00",
+	"fields": {
+		"typeChallenge": 0, 
+		"condition": 0, 
+		"award": 5}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"01",
+	"fields": {
+		"typeChallenge": 0, 
+		"condition": 1, 
+		"award": 10}
+	},
+	{
+	"model": "BikeMe.challenge", 
+	"pk":"02",
+	"fields": {
+		"typeChallenge": 0, 
+		"condition": 2, 
+		"award": 20}
+	}
+]
