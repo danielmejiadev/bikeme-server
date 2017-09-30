@@ -8,6 +8,8 @@ from Apps.BikeMe.models.point_model import Point
 from Apps.BikeMe.models.event_model import Event
 from Apps.BikeMe.models.guest_model import Guest
 from Apps.BikeMe.models.challenge_model import Challenge
+from Apps.BikeMe.models.problem_model import Problem
+
 
 # Register your models here.
 
@@ -19,3 +21,4 @@ admin.site.register(Point)
 admin.site.register(Event)
 admin.site.register(Guest)
 admin.site.register(Challenge)
+admin.site.register(Problem)
