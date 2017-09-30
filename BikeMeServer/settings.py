@@ -13,7 +13,7 @@ SECRET_KEY = 'ewncnlyc++e_!9$)!bnjv3^!o2*zt5#nu0xcsxae$m+anwlbs2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.2']
+ALLOWED_HOSTS = ['ec2-34-215-91-140.us-west-2.compute.amazonaws.com']
 
 # Application definition
 
@@ -79,9 +79,9 @@ FIXTURE_DIRS = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'bikemetest',
+        'NAME': 'bikemeproduction',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'BikeMeApp',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
