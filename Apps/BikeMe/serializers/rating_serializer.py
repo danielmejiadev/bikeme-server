@@ -7,7 +7,6 @@ class RatingSerializerCreate(serializers.ModelSerializer):
         model = Rating
         fields = ('id','user', 'route', 'calification','recommendation','date')
        
-     
     def create(self, validated_data):
         try:
             rating = Rating.objects.get(user=validated_data.get('user'), route=validated_data.get('route'))

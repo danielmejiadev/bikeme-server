@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from Apps.BikeMe.views import  recommender_system_view, user_view, route_view, event_view
+from Apps.BikeMe.views import  recommender_system_view, user_view, route_view, event_view, problem_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -30,4 +30,6 @@ urlpatterns = [
     url(r'^routes/ratings/new$', route_view.createRatings),
 
     url(r'^events/guests/new$', event_view.createGuests),
+
+    url(r'^problems/new$', problem_view.createProblems),
 ]
