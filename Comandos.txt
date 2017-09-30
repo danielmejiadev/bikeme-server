@@ -1,5 +1,5 @@
 Dns : ec2-34-215-91-140.us-west-2.compute.amazonaws.com
-Ip : 172.33.31.63 dd
+Ip : 172.33.31.63
 
 User : root
 Pass: BikeMeApp
