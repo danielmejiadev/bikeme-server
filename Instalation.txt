@@ -5,6 +5,8 @@ Install mysql
 Install apache server
 install phpmyadmin
 install Django-Django RestFramework
+pip install django[argon2]
+install drfapikey
 install numpy
 install pyproj 
 install mysqlclient
