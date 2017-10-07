@@ -12,6 +12,7 @@ install pyproj
 install mysqlclient
 Create project
 Install RabbitServer-Celery-django-celery
+install supervisor para las tareas periodicas
 Create worker daemons for celery
 
 
